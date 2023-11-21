@@ -1,0 +1,33 @@
+*{
+    text-decoration: none;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 70px;
+    column-gap: 25px;
+    margin: 20px;
+  }
+  .section-two a {
+    display: inline-block;
+    margin-top: 4px;
+    color: black;
+  }
+  .section-two div {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+  }
+  .section-two a:hover {
+    background-color: rgb(248, 247, 247);
+    color: rgb(150, 106, 106);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .section-two a:active {
+    background-color: white;
+    color: black;
+  }
+  
